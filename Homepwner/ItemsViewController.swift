@@ -11,6 +11,24 @@ import UIKit
 class ItemsViewController: UITableViewController {
     var itemStore: ItemStore!
 
+    @IBAction func addNewItem(sender: AnyObject) {
+        let newItem = itemStore.createItem()
+        if let index = itemStore.allItems.index(of: newItem) {
+            let indexPath = IndexPath(row: index, section: 0)
+            tableView.insertRows(at: [indexPath], with: .automatic)
+        }
+    }
+
+    @IBAction func toggleEditingMode(sender: AnyObject) {
+        if isEditing {
+            sender.setTitle("Edit", for: .normal)
+            setEditing(false, animated: true)
+        } else {
+            sender.setTitle("Done", for: .normal)
+            setEditing(true, animated: true)
+        }
+    }
+
     override func viewDidLoad() {
         super.viewDidLoad()
         let statusBarHeight = UIApplication.shared.statusBarFrame.height
@@ -30,5 +48,4 @@ class ItemsViewController: UITableViewController {
         cell.detailTextLabel?.text = "$\(item.valueInDollars)"
         return cell
     }
-
 }

@@ -4,13 +4,13 @@
     <list default="true" id="93bc7848-5205-41f2-b358-ae3d7e7a96f3" name="Default" comment="">
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Homepwner/Item.swift" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Homepwner/ItemStore.swift" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Homepwner/ItemsViewController.swift" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/Homepwner/ViewController.swift" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Homepwner.xcodeproj/project.pbxproj" afterPath="$PROJECT_DIR$/Homepwner.xcodeproj/project.pbxproj" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Homepwner.xcodeproj/xcuserdata/danielchoi.xcuserdatad/xcschemes/Homepwner.xcscheme" afterPath="$PROJECT_DIR$/Homepwner.xcodeproj/xcuserdata/danielchoi.xcuserdatad/xcschemes/Homepwner.xcscheme" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Homepwner.xcodeproj/xcuserdata/danielchoi.xcuserdatad/xcschemes/xcschememanagement.plist" afterPath="$PROJECT_DIR$/Homepwner.xcodeproj/xcuserdata/danielchoi.xcuserdatad/xcschemes/xcschememanagement.plist" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Homepwner/AppDelegate.swift" afterPath="$PROJECT_DIR$/Homepwner/AppDelegate.swift" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Homepwner/Base.lproj/Main.storyboard" afterPath="$PROJECT_DIR$/Homepwner/Base.lproj/Main.storyboard" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Homepwner/ItemsViewController.swift" afterPath="$PROJECT_DIR$/Homepwner/ItemsViewController.swift" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -22,14 +22,14 @@
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="iphoneos_cdd459c296b7fa7bee7438326b32a0f7cc81874f" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="iphoneos" />
   <component name="FileEditorManager">
     <leaf>
       <file leaf-file-name="ItemsViewController.swift" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Homepwner/ItemsViewController.swift">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="12" lean-forward="true" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
+            <state relative-caret-position="480">
+              <caret line="32" column="1" lean-forward="false" selection-start-line="32" selection-start-column="1" selection-end-line="32" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -87,8 +87,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="326" />
-    <option name="y" value="-1025" />
+    <option name="x" value="86" />
+    <option name="y" value="-1055" />
     <option name="width" value="1400" />
     <option name="height" value="983" />
   </component>
@@ -206,15 +206,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1481365404324</updated>
-      <workItem from="1481365406038" duration="3680000" />
+      <workItem from="1481365406038" duration="4206000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3680000" />
+    <option name="totallyTimeSpent" value="4206000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="326" y="-1025" width="1400" height="983" extended-state="0" />
+    <frame x="86" y="-1055" width="1400" height="983" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -274,8 +274,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Homepwner/ItemsViewController.swift">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="12" lean-forward="true" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
+        <state relative-caret-position="480">
+          <caret line="32" column="1" lean-forward="false" selection-start-line="32" selection-start-column="1" selection-end-line="32" selection-end-column="1" />
           <folding />
         </state>
       </provider>
