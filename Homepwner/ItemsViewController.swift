@@ -48,4 +48,18 @@ class ItemsViewController: UITableViewController {
         cell.detailTextLabel?.text = "$\(item.valueInDollars)"
         return cell
     }
+
+    // Row deletion
+    override func tableView(_ tableView: UITableView, commit editingStyle: UITableViewCellEditingStyle, forRowAt indexPath: IndexPath) {
+        if editingStyle == .delete {
+            let item = itemStore.allItems[indexPath.row]
+            itemStore.removeItem(item: item)
+            tableView.deleteRows(at: [indexPath], with: .automatic)
+        }
+    }
+
+    // Row moving
+    override func tableView(_ tableView: UITableView, moveRowAt sourceIndexPath: IndexPath, to destinationIndexPath: IndexPath) {
+        itemStore.moveItem(fromIndex: sourceIndexPath.row, toIndex: destinationIndexPath.row)
+    }
 }
