@@ -29,6 +29,11 @@ class ItemsViewController: UITableViewController {
         }
     }
 
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        tableView.reloadData()
+    }
+
     override func viewDidLoad() {
         super.viewDidLoad()
         let statusBarHeight = UIApplication.shared.statusBarFrame.height
