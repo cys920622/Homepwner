@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		A247C3D3DFA0ECEE06531993 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = A247C6191A296706152CD482 /* Item.swift */; };
+		A247C94ACC590E77B247578D /* ItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A247C7462F57686897B36BCB /* ItemCell.swift */; };
 		A247CA075F79F2720790D185 /* ItemStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = A247CBA78DA103355CC490F1 /* ItemStore.swift */; };
 		D26F62771DFC0C7600233345 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D26F62761DFC0C7600233345 /* AppDelegate.swift */; };
 		D26F627C1DFC0C7600233345 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D26F627A1DFC0C7600233345 /* Main.storyboard */; };
@@ -18,6 +19,7 @@
 
 /* Begin PBXFileReference section */
 		A247C6191A296706152CD482 /* Item.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		A247C7462F57686897B36BCB /* ItemCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemCell.swift; sourceTree = "<group>"; };
 		A247CBA78DA103355CC490F1 /* ItemStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemStore.swift; sourceTree = "<group>"; };
 		D26F62731DFC0C7600233345 /* Homepwner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Homepwner.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D26F62761DFC0C7600233345 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -66,6 +68,7 @@
 				D26F62881DFC0EDD00233345 /* ItemsViewController.swift */,
 				A247C6191A296706152CD482 /* Item.swift */,
 				A247CBA78DA103355CC490F1 /* ItemStore.swift */,
+				A247C7462F57686897B36BCB /* ItemCell.swift */,
 			);
 			path = Homepwner;
 			sourceTree = "<group>";
@@ -147,6 +150,7 @@
 				D26F62771DFC0C7600233345 /* AppDelegate.swift in Sources */,
 				A247C3D3DFA0ECEE06531993 /* Item.swift in Sources */,
 				A247CA075F79F2720790D185 /* ItemStore.swift in Sources */,
+				A247C94ACC590E77B247578D /* ItemCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
